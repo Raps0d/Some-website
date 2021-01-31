@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <meta name="description" content="professional website">
+   <meta name="keywords" content="web design, professional">
+   <meta name="author" content="Theodore Nguyen">
+   <title>My Website</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet"> 
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+ </head>
+ <body> 
+  <section id="showcase">
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Hello</span> there.</h1>
+        </div>
+        <nav>
+          <u1>
+            <li class="current"><a href="index.html">home.</a></li>
+            <li><a href="about.html">about.</a></li>
+            <li><a href="my work.html">work.</a></li>
+          </u1>
+        </nav>
+      </div>
+    </header>
+    <div id="showcase-wrapper">
+     <div class="left-column"></div>
+     <div class="right-column">
+        <div id="preview-shadow" data-aos="fade-up"
+        data-aos-duration="3000">
+          <div id="preview">
+            <div id="corner-tl" class="corner"></div>
+            <div id="corner-tr" class="corner"></div>
+            <h3>My name is <span style="font-size:110%">Nguyen Minh Khoa.</span></h3>
+            <p> I am a Vietnamese high school student who majors in English, as well as a self-taught novice programmer.</P>
+            <div id="corner-br" class="corner"></div>
+            <div id="corner-bl" class="corner"></div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe to my newsletter.</h1>
+      <form>
+        <input type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_2">Subscribe.</button>
+      </form>
+    </div>
+  </section>
+
+
+  <div class="extra-padding">
+  <section id="link_pages"> 
+    <div id="grid-wrapper">
+      <div class="left-column">
+       <div class="another-page"data-aos="fade-right" data-aos-duration="3000">
+        <img src="./img/About.jpg">
+        <div id="about-page"> 
+            <h1>ABOUT.</h1>
+            <p>I am currently studying at VNU-HCM High school for the Gifted. I am passionate about innovations and driven by the capabilities of computers.</P>
+            <button onclick="location.href='about.html'" class="button_1">Explore.</button>
+        </div>
+       </div>
+      </div>
+      <div class="right-column">
+        <div class="another-page"  data-aos="fade-left" data-aos-duration="3000">
+         <img src="./img/work.png">
+         <div id="work-page">
+             <h1>MY WORK.</h1>
+             <p>As a self-taught programmer, I have challenged myself by creating a number of projects. Here are some of my most recent projects.</P>
+             <button onclick="location.href='my work.html'" class="button_1">Explore.</button>    
+         </div>
+        </div>
+      </div>
+     </div>
+  </section>
+  </div>
+
+  <footer>
+   <p>Professional Website, Copyright &copy; 2021 </p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+ </body>
+</html>
